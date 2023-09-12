@@ -15,7 +15,7 @@ var (
 )
 
 func main() {
-	server, err := net.Listen("tcp", ":5000")
+	server, err := net.Listen("tcp", ":3000")
 	if err != nil {
 		log.Fatal(err)
 	}
